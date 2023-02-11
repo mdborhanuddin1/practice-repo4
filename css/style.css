@@ -1,0 +1,107 @@
+
+.bg-img1{
+    background-image: url('../images/idea.jpg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img2{
+    background-image: url('../images/lifestyle.jpg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img3{
+    background-image: url('../images/design.jpg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img4{
+    background-image: url('../images/health.jpg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img5{
+    background-image: url('../images/interior.jpeg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img6{
+    background-image: url('../images/eco.jpg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img7{
+    background-image: url('../images/review.jpeg');
+    width: 25%;
+    height: 100px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-opacity{
+    background-image: url('../images/product.jpg');
+}
+
+
+.moving{
+transition: translate 0.3s ;
+}
+.moving:hover{
+    translate: 0 -3px;
+}
+.bg-opacity-5 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.bg-color{
+    background-color: #ffc72d;
+}
+@media screen and (max-width:576px) {
+    .bg-img1{
+        width: 100%;
+    }
+    .bg-img2{
+        width: 100%;
+    }
+    .bg-img3{
+        width: 100%;
+    }
+    .bg-img4{
+        width: 100%;
+    }
+    .bg-img5{
+        width: 100%;
+    }
+    .bg-img6{
+        width: 100%;
+    }
+    .bg-img7{
+        width: 100%;
+    }
+    .bg-opacity{
+        height: 100%;
+    }
+}
